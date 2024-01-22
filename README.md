@@ -2,6 +2,7 @@
 
 # Fishy Product 🐟
 
+[Fishy Product (hosted on Netlify)](https://fishy-product.netlify.app/) -
 This project is a resource for a tutorial I made on Youtube that showcase the use of NextJS, Tailwindcss, and React to build a Server Side Rendered (SSR) marketing webpage.
 
 ## How to run
