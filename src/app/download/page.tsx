@@ -7,19 +7,19 @@ function Page() {
       <div className="flex flex-col sm:flex-row gap-3">
         <a
           href="/download/start?platform=windows"
-          className="text-base font-bold px-3 text-white rounded-full py-1.5 bg-gradient-to-tr from-violet-600 to-pink-800"
+          className="text-base text-center font-bold px-3 text-white rounded-full py-1.5 bg-gradient-to-tr from-violet-600 to-pink-800"
         >
           Windows
         </a>
         <a
           href="/download/start?platform=mac"
-          className="text-base font-bold px-3 text-white rounded-full py-1.5 bg-gradient-to-tr from-violet-600 to-pink-800"
+          className="text-base text-center font-bold px-3 text-white rounded-full py-1.5 bg-gradient-to-tr from-violet-600 to-pink-800"
         >
           Mac
         </a>
         <a
           href="/download/start?platform=linux"
-          className="text-base font-bold px-3 text-white rounded-full py-1.5 bg-gradient-to-tr from-violet-600 to-pink-800"
+          className="text-base text-center font-bold px-3 text-white rounded-full py-1.5 bg-gradient-to-tr from-violet-600 to-pink-800"
         >
           Linux
         </a>
