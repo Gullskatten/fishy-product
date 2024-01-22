@@ -40,7 +40,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex gap-3 flex-col">
-          <ul className="flex items-center justify-center flex-wrap gap-5">
+          <ul className="grid grid-flow-row sm:grid-cols-2 lg:grid-cols-4 gap-5">
             <li className="p-10 rounded-md bg-black border border-teal-800 flex flex-col gap-3">
               <div>
                 <h3 className="text-xl sm:text-2xl font-bold text-center text-gray-900 dark:text-gray-100">
@@ -76,7 +76,7 @@ export default function Home() {
                 </a>
               </div>
             </li>
-            <li className="p-10 relative rounded-md bg-black border border-violet-800 flex flex-col gap-3">
+            <li className="p-10 relative rounded-md bg-black border border-violet-800 flex flex-col gap-3 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,_hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] shadow-blue-700/50">
               <div className="absolute -top-2 right-3">
                 <div className="bg-violet-800 text-violet-300 rounded-full text-xs px-3">
                   <span>Top Pick</span>

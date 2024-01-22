@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function Nav() {
   return (
-    <nav className="flex justify-between items-center w-full sticky top-5">
+    <nav className="flex justify-between items-center w-full sticky top-5 z-10">
       <div className="flex items-center justify-start gap-5">
         <div>
           <a
