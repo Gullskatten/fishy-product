@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <g id="Glyph" transform="translate(251.000000, 257.000000) scale(1, -1) rotate(-45.000000) translate(-251.000000, -257.000000) translate(178.500000, 40.500000)">
+            <g id="Fish-Head" transform="translate(-0.000000, 301.000000)">
+                <polygon fill="#E862E955" id="Head-Base"  transform="translate(72.500000, 66.109927) scale(1, -1) translate(-72.500000, -66.109927) " points="0.5 0.719854476 72.3519423 54.9762979 144.5 0.719854476 143.5 109.719854 70.8948822 131.5 0.5 108.719854"></polygon>
+                <polygon fill="#E862E955" id="Jowl"  transform="translate(107.697441, 66.109927) scale(1, -1) translate(-107.697441, -66.109927) " points="72.3519423 54.9762979 144.5 0.719854476 70.8948822 131.5"></polygon>
+                <polygon fill="#E862E955" id="Jowl"  transform="translate(36.425971, 66.109927) scale(-1, -1) translate(-36.425971, -66.109927) " points="0.5 54.9762979 72.3519423 0.719854476 1.95706006 131.5"></polygon>
+            </g>
+            <g id="Last-Rib" transform="translate(0.000000, 192.000000)">
+                <polygon fill="#E862E955" id="Head-Base"  transform="translate(72.000000, 34.250000) scale(1, -1) translate(-72.000000, -34.250000) " points="0.5 15 36 0.5 108 0.5 143.5 14 143.5 41 71.5 68 0.5 41"></polygon>
+                <polygon fill="#E862E955" id="Jowl" fill-opacity="0.700000048"  transform="translate(36.000000, 27.000000) scale(-1, -1) translate(-36.000000, -27.000000) " points="0.5 26.5 71.5 0.5 71.5 26.5 0.5 53.5"></polygon>
+                <polygon fill="#E862E955" id="Path-2" fill-opacity="0.3" points="71.5 0.5 71.5 27.5 143.5 54.5 143.5 27.5"></polygon>
+            </g>
+            <g id="Mid-Rib" transform="translate(0.000000, 219.000000)" fill-opacity="0.700000048">
+                <polygon fill="#E862E955" id="Jowl"  transform="translate(36.000000, 40.500000) scale(-1, -1) translate(-36.000000, -40.500000) " points="0.5 27.5 71.5 0.5 71.5 80.5 0.5 53.5"></polygon>
+                <polygon fill="#E862E955" id="Jowl"  transform="translate(107.500000, 41.000000) scale(1, -1) translate(-107.500000, -41.000000) " points="71.5 28.5 143.5 0.5 143.5 81.5 71.5 54.5"></polygon>
+            </g>
+            <g id="Front-Rib" transform="translate(0.000000, 246.000000)">
+                <polygon fill="#E862E955" id="Head-Base"  transform="translate(72.000000, 40.957143) scale(1, -1) translate(-72.000000, -40.957143) " points="0.5 28.4142857 72 0.5 143.5 27.4142857 143.5 54.4142857 71.5 81.4142857 0.5 54.4142857"></polygon>
+                <polygon fill="#E862E955" id="Jowl" fill-opacity="0.700000048"  transform="translate(36.000000, 27.000000) scale(-1, -1) translate(-36.000000, -27.000000) " points="0.5 27.5 71.5 0.5 71.5 26.5 0.5 53.5"></polygon>
+                <polygon fill="#E862E955" id="Path-2" fill-opacity="0.3" points="71.5 0.5 71.5 26.5 143.5 54.5 143.5 27.5"></polygon>
+            </g>
+            <g id="Fish-Back" transform="translate(0.117647, 83.000000)">
+                <polygon fill="#E862E955" id="Jowl" fill-opacity="0.51"  transform="translate(107.079794, 164.109927) scale(-1, -1) translate(-107.079794, -164.109927) " points="70.7772352 128.132017 143.382353 109.5 70.7772352 218.719854"></polygon>
+                <polygon fill="#E862E955" id="Jowl" fill-opacity="0.75"  transform="translate(107.382353, 55.000000) scale(1, -1) translate(-107.382353, -55.000000) " points="71.3823529 25.5 143.382353 0.5 71.3823529 109.5"></polygon>
+                <polygon fill="#E862E955" id="Jowl" fill-opacity="0.51"  transform="translate(35.579794, 164.109927) scale(1, -1) translate(-35.579794, -164.109927) " points="0.382352941 128.132017 70.7772352 109.5 0.382352941 218.719854"></polygon>
+                <polygon fill="#E862E955" id="Jowl" fill-opacity="0.41"  transform="translate(35.882353, 55.000000) scale(-1, -1) translate(-35.882353, -55.000000) " points="0.382352941 25.5 71.3823529 0.5 0.382352941 109.5"></polygon>
+                <polygon fill="#E862E955" id="Jowl" fill-opacity="0.75"  transform="translate(35.882353, 55.000000) scale(-1, -1) translate(-35.882353, -55.000000) " points="0.382352941 25.5 71.3823529 0.5 0.382352941 109.5"></polygon>
+            </g>
+            <g id="Fish-Fin" transform="translate(72.000000, 42.000000) scale(1, -1) translate(-72.000000, -42.000000) " fill-opacity="0.75">
+                <polygon fill="#E862E955" id="Jowl"  transform="translate(107.500000, 42.000000) scale(1, -1) translate(-107.500000, -42.000000) " points="71.5 44.5 143.5 0.5 71.5 83.5"></polygon>
+                <polygon fill="#E862E955" id="Jowl"  transform="translate(36.000000, 42.000000) scale(-1, -1) translate(-36.000000, -42.000000) " points="0.5 44.5 71.5 0.5 0.5 83.5"></polygon>
+            </g>
+        </g>
+</svg>

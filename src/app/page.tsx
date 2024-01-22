@@ -2,111 +2,206 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
+    <main className="flex grow">
+      <div className="relative flex flex-col items-center justify-center flex-1 gap-10">
+        <div className="relative h-64">
+          <Image
+            className=" w-72 h-72 -z-0 sm:animate-wiggle pointer-events-none"
+            src="/fishy-ghost.svg"
+            alt="Fishy Product"
+            width={288}
+            height={288}
+          />
+        </div>
+        <div className="justify-center flex flex-col items-center gap-5">
+          <div className="p-3 flex flex-col gap-1 ">
+            <h1 className="text-pretty text-3xl sm:text-4xl font-bold text-center text-gray-900 dark:text-gray-100">
+              A <span className="text-amber-500">Fishy</span> Product
+            </h1>
+            <p className="text-balance text-center text-gray-500 dark:text-gray-400">
+              The product you will get hooked on.
+            </p>
+          </div>
           <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/download"
+            className="text-base font-bold px-3 text-white rounded-full py-1.5 bg-gradient-to-tr from-violet-600 to-pink-800"
           >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
+            Try for Free
           </a>
         </div>
-      </div>
+        <div className="mt-10">
+          <div className="flex flex-col gap-3">
+            <h2 className="text-4xl sm:text-5xl font-bold text-center text-gray-900 dark:text-gray-100">
+              Pricing
+            </h2>
+            <p className="text-balance text-center text-gray-500 dark:text-gray-400">
+              Choose a plan that fits your needs.
+            </p>
+          </div>
+        </div>
+        <div className="flex gap-3 flex-col">
+          <ul className="flex items-center justify-center flex-wrap gap-5">
+            <li className="p-10 rounded-md bg-black border border-teal-800 flex flex-col gap-3">
+              <div>
+                <h3 className="text-xl sm:text-2xl font-bold text-center text-gray-900 dark:text-gray-100">
+                  Free
+                </h3>
+                <p className="text-balance text-center text-gray-500 dark:text-gray-400">
+                  Free forever.
+                </p>
+              </div>
+              <ul className="list-disc mt-5">
+                <li>
+                  <p className="text-balance text-gray-500 dark:text-gray-400">
+                    1 user
+                  </p>
+                </li>
+                <li>
+                  <p className="text-balance  text-gray-500 dark:text-gray-400">
+                    1 project
+                  </p>
+                </li>
+                <li>
+                  <p className="text-balance  text-gray-500 dark:text-gray-400">
+                    1GB storage
+                  </p>
+                </li>
+              </ul>
+              <div className="flex justify-center mt-5">
+                <a
+                  href="/"
+                  className="text-center font-bold px-3 text-white rounded-full py-1.5 bg-gradient-to-tr from-teal-600 to-teal-800"
+                >
+                  Get Started
+                </a>
+              </div>
+            </li>
+            <li className="p-10 relative rounded-md bg-black border border-violet-800 flex flex-col gap-3">
+              <div className="absolute -top-2 right-3">
+                <div className="bg-violet-800 text-violet-300 rounded-full text-xs px-3">
+                  <span>Top Pick</span>
+                </div>
+              </div>
+              <div>
+                <h3 className="text-xl sm:text-2xl font-bold text-center text-gray-900 dark:text-gray-100">
+                  Premium
+                </h3>
+                <p className="text-balance text-center text-gray-500 dark:text-gray-400">
+                  $5/month
+                </p>
+              </div>
+              <ul className="list-disc mt-5">
+                <li>
+                  <p className="text-balance text-gray-500 dark:text-gray-400">
+                    5 users
+                  </p>
+                </li>
+                <li>
+                  <p className="text-balance  text-gray-500 dark:text-gray-400">
+                    10 projects
+                  </p>
+                </li>
+                <li>
+                  <p className="text-balance  text-gray-500 dark:text-gray-400">
+                    10GB storage
+                  </p>
+                </li>
+              </ul>
+              <div className="flex justify-center mt-5">
+                <a
+                  href="/download"
+                  className="text-center font-bold px-3 text-white rounded-full py-1.5 bg-gradient-to-tr from-violet-600 to-pink-800"
+                >
+                  Free Trial
+                </a>
+              </div>
+            </li>
+            <li className="p-10 rounded-md bg-black border border-violet-900 flex flex-col gap-3">
+              <div>
+                <h3 className="text-xl sm:text-2xl font-bold text-center text-gray-900 dark:text-gray-100">
+                  Scale-Up
+                </h3>
+                <p className="text-balance text-center text-gray-500 dark:text-gray-400">
+                  $15/month
+                </p>
+              </div>
+              <ul className="list-disc mt-5">
+                <li>
+                  <p className="text-balance text-gray-500 dark:text-gray-400">
+                    25* users
+                  </p>
+                </li>
+                <li>
+                  <p className="text-balance  text-gray-500 dark:text-gray-400">
+                    1000* projects
+                  </p>
+                </li>
+                <li>
+                  <p className="text-balance  text-gray-500 dark:text-gray-400">
+                    1TB* storage
+                  </p>
+                </li>
+              </ul>
+              <div className="flex justify-center mt-5">
+                <a
+                  href="/"
+                  className="text-center font-bold px-3 text-white rounded-full py-1.5 bg-gradient-to-tr from-violet-800 to-violet-900"
+                >
+                  Register
+                </a>
+              </div>
+            </li>
+            <li className="p-10 rounded-md bg-black border border-violet-950 flex flex-col gap-3">
+              <div>
+                <h3 className="text-xl sm:text-2xl font-bold text-center text-gray-900 dark:text-gray-100">
+                  Enterprise
+                </h3>
+                <p className="text-balance text-center text-gray-500 dark:text-gray-400">
+                  Contact us
+                </p>
+              </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+              <div className="list-disc mt-5">
+                <p className="text-wrap text-gray-500 dark:text-gray-400">
+                  Custom Domain?
+                </p>
+                <p className="text-wrap text-gray-500 dark:text-gray-400">
+                  SLA requirements?
+                </p>
+                <p className="text-wrap text-gray-500 dark:text-gray-400">
+                  Premium support?
+                </p>
+              </div>
+              <div className="flex justify-center mt-5">
+                <a
+                  href="/"
+                  className="text-center font-bold px-3 text-white rounded-full py-1.5 bg-gradient-to-tr from-violet-800 to-violet-900"
+                >
+                  Contact Us
+                </a>
+              </div>
+            </li>
+          </ul>
+          <div className="mt-5">
+            <ul>
+              <li>
+                <p className="text-balance text-gray-500 dark:text-gray-400">
+                  * $1 per additional user after 25 users
+                </p>
+              </li>
+              <li>
+                <p className="text-balance text-gray-500 dark:text-gray-400">
+                  * $1 per additional project after 1000 projects
+                </p>
+              </li>
+              <li>
+                <p className="text-balance text-gray-500 dark:text-gray-400">
+                  * $1 per additional GB after 1TB
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </main>
   );
