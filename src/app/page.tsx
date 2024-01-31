@@ -24,7 +24,7 @@ export default function Home() {
           </div>
           <a
             href="/download"
-            className="text-base font-bold px-3 text-white rounded-full py-1.5 bg-gradient-to-tr from-violet-600 to-pink-800"
+            className="text-base font-bold w-full text-center justify-center flex px-3 text-white rounded-full py-1.5 bg-gradient-to-tr from-violet-600 to-pink-800 hover:brightness-110"
           >
             Try for Free
           </a>
@@ -67,10 +67,10 @@ export default function Home() {
                   </p>
                 </li>
               </ul>
-              <div className="flex justify-center mt-5">
+              <div className="flex justify-center mt-5 w-full">
                 <a
                   href="/"
-                  className="text-center font-bold px-3 text-white rounded-full py-1.5 bg-gradient-to-tr from-teal-600 to-teal-800"
+                  className="text-center hover:brightness-110 font-bold w-full text-white rounded-full py-1.5 bg-gradient-to-tr from-teal-600 to-teal-800"
                 >
                   Get Started
                 </a>
@@ -107,10 +107,10 @@ export default function Home() {
                   </p>
                 </li>
               </ul>
-              <div className="flex justify-center mt-5">
+              <div className="flex justify-center mt-5 w-full">
                 <a
                   href="/download"
-                  className="text-center font-bold px-3 text-white rounded-full py-1.5 bg-gradient-to-tr from-violet-600 to-pink-800"
+                  className="text-center hover:brightness-110 font-bold text-white rounded-full py-1.5 bg-gradient-to-tr from-violet-600 to-pink-800 w-full"
                 >
                   Free Trial
                 </a>
@@ -142,10 +142,10 @@ export default function Home() {
                   </p>
                 </li>
               </ul>
-              <div className="flex justify-center mt-5">
+              <div className="flex justify-center mt-5 w-full">
                 <a
                   href="/"
-                  className="text-center font-bold px-3 text-white rounded-full py-1.5 bg-gradient-to-tr from-violet-800 to-violet-900"
+                  className="text-center hover:brightness-110 font-bold w-full text-white rounded-full py-1.5 bg-gradient-to-tr from-violet-800 to-violet-900"
                 >
                   Register
                 </a>
@@ -172,10 +172,10 @@ export default function Home() {
                   Premium support?
                 </p>
               </div>
-              <div className="flex justify-center mt-5">
+              <div className="flex justify-center mt-5 w-full">
                 <a
                   href="/"
-                  className="text-center font-bold px-3 text-white rounded-full py-1.5 bg-gradient-to-tr from-violet-800 to-violet-900"
+                  className="text-center hover:brightness-110 font-bold w-full text-white rounded-full py-1.5 bg-gradient-to-tr from-violet-800 to-violet-900"
                 >
                   Contact Us
                 </a>
