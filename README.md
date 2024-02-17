@@ -30,26 +30,13 @@ npm run dev
 
 4. Go to http://localhost:3000 to see the Fishy Product website! 🎉
 
-# Resources
+## Resources
 
-## Creating a new next-js app
+#### Creating a new next-js app
 
 ```console
 npx create-next-app@latest
 ```
-
-## Creating a turbo monorepo
-
-```console
-npx create-turbo@latest
-```
-
-## Editing the generated files
-
-- Add some SEO (opengraph) information.
-- Remove all content inside the `<main></main>` of `src/app/page/Layout.tsx`
-- \_components/
-- Adding a `nav.tsx`, `footer.tsx``
 
 ## Extras
 
