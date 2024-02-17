@@ -29,3 +29,48 @@ npm run dev
 ```
 
 4. Go to http://localhost:3000 to see the Fishy Product website! 🎉
+
+# Resources
+
+## Creating a new next-js app
+
+```console
+npx create-next-app@latest
+```
+
+## Creating a turbo monorepo
+
+```console
+npx create-turbo@latest
+```
+
+## Editing the generated files
+
+- Add some SEO (opengraph) information.
+- Remove all content inside the `<main></main>` of `src/app/page/Layout.tsx`
+- \_components/
+- Adding a `nav.tsx`, `footer.tsx``
+
+## Extras
+
+### ffmpeg create icon from svg / png
+
+`ffmpeg` can be installed with homebrew.
+
+```console
+ffmpeg -i img.png -vf scale=32:32 img.ico
+```
+
+## Troubleshooting
+
+### `code .` is not recognized as a command
+
+Open VS Code and hit <kbd>⌘</kbd> + ⇧ + <kbd>P</kbd> / <kbd>ctrl</kbd> + ⇧ + <kbd>P</kbd> and search for:
+
+```console
+>Shell Command: Install 'code' command in PATH
+```
+
+hit <kbd>Enter</kbd> key.
+
+This will allow you to use `code .` to open up the current directory in VS code from a terminal. For users using VS Code Insiders, the command is `code-insiders .`
